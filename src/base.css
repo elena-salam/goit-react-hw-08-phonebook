@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input{
+    font-size: 16px;
+}
+
+.notification-close::after{
+    font-size: 32px !important; 
+}
+
+.notification-title{
+    font-size: 16px !important;
+}
+
+.notification-message{
+    font-size: 16px !important;
+}

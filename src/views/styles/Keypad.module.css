@@ -1,0 +1,64 @@
+.keypad{
+    position: absolute;
+    width: 315px;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+};
+
+.keypadTitle{
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+}
+
+.keypadInputSection{
+        margin-bottom: 20px;
+}
+.keypadInputSectionDelete{
+            position: absolute;
+            right: 10px;
+            top: 75px;
+            font-size: 18px;
+            color: #424242;
+}
+    
+
+.keypadInput{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        margin-right: 20px;
+        margin-bottom: 10px;
+}
+
+.keypadPhoneButton{
+        padding: 10px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        font-size: 22px;
+        color: #fff;
+        background-color: #2E71BB;;
+        border-radius: 5px;
+        outline: none;
+}
+
+.keypadNumbers{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        text-align: center;
+        align-items: center;
+}
+.keypadNumbersItem{
+            font-size: 32px;
+            background-color: #f2f2f2;
+            border: 2px solid #bdbdbd;
+}
+   

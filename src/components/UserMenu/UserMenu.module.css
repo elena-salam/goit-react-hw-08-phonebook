@@ -1,0 +1,37 @@
+.userMenuContainer {
+   
+      margin-bottom: 30px;
+      padding: 10px 15px;
+      width: 100%;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 2px 19px 0px rgba(50, 50, 50, 0.31);
+}
+  
+.userMenuGreeting{
+        font-size: 18px;
+        font-weight: 500;
+}
+  
+.userMenuButton{
+        padding: 3px 5px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        background-color:#2E71BB;
+        /* border: 2px solid #388E3C; */
+        border-radius: 5px;
+        transition: 150ms linear;
+        outline: none;
+  
+        /* // &:hover,
+        // &:active{
+        //     cursor: pointer;
+        //     transform: scale(0.95);
+        //     transition: 150ms linear;
+        // } */
+    }
+  
+  

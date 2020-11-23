@@ -1,0 +1,53 @@
+.home {
+    height: 100vh;
+    
+    /* // background-image: url('../../assets/undraw_develop_app_kvt2.svg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: contain; */
+}
+.homeTitleContainer {
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+}
+  
+.homeTitle {
+      font-size: 32px;
+}
+  
+.homeSubTitle {
+      font-size: 18px;
+      font-weight: 500;
+}
+  
+.homeTitle,
+.homeSubtitle {
+      text-align: center;
+}
+  
+.homeButtonsContainer {
+      width: 100%;
+      position: absolute;
+      bottom: 115px;
+      display: flex;
+      justify-content: space-around;
+}
+  
+.homeButton {
+      padding: 10px 15px;
+      width: 100px;
+      text-align: center;
+}  
+.homeButtonLogIn {
+        border: 2px solid #b3b3b3;
+}
+  
+.homeButtonRegister {
+        color: #ffffff;
+        background-color: #2E71BB;;
+        /* border: 2px solid #388E3C; */
+}
+   
